@@ -21,7 +21,7 @@ MoE_sN<-function (Y, X, G=3, delta = 1, a=1, b=0.005, a.n=2.5, b.n=0.5, v=0.01, 
 		prstore<-matrix(0,G,maxiter)
 		pr <- rdirichlet(1, rep(delta,G)) 
 		if(J==1){
-			v.n<-1#2.6/(diff(range(Y)))^2
+			v.n<-1
 			sigma2store<-matrix(0,G,maxiter)
 			mustore<-matrix(0,G,maxiter)
 			sigma2<-rep(var(Y)/G^2,G)
