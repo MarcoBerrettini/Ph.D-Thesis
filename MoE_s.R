@@ -1,9 +1,3 @@
-#kn <- function(x, xl, xr, ndx, bdeg) {
-#dx <- (xr - xl) / ndx
-#knots <- seq(xl - bdeg * dx, xr + bdeg * dx, by = dx)
-#knots
-#}
-
 bspline <- function(x, xl, xr, ndx, bdeg) {
 dx <- (xr - xl) / ndx
 knots <- seq(xl - bdeg * dx, xr + bdeg * dx, by = dx)
