@@ -1012,4 +1012,4 @@ mix_l<-function (Y, X, G=3, delta = 1, a=1, b=0.005, a.n=1.28, b.n=0.36, v=0.01,
 			duration=duration)
 		return(output)
 	}
-}
+} 
